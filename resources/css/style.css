@@ -22,7 +22,7 @@ a:hover{
   max-height: 400px;
   width: 100%;
   overflow: hidden;
-  background: url(/resources/images/Card2.jpg) no-repeat;
+  background: url(../images/Card2.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -153,7 +153,7 @@ a:hover{
   color: rgba(0, 0, 0, 0.8);
 }
 .weather-card.rain .top {
-  background: url(/resources/images/Card.png) no-repeat;
+  background: url(../images/Card.png) no-repeat;
   background-size: cover;
   background-position: center center;
 }

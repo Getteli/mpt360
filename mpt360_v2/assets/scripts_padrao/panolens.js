@@ -2418,7 +2418,7 @@ GSVPANO.PanoLoader = function (parameters) {
      * https://pchen66.github.io/Panolens/asset/icon/
      * @type {String}
      */
-    PANOLENS.DataImageSource = '_assets/_img/';
+    PANOLENS.DataImageSource = 'assets/img/';
 
     /**
      * Data Image

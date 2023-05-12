@@ -105,11 +105,11 @@ a:link, a:visited{
 /* fim span de aviso */
 /* btn para entrar no modo VR */
 .mptide_btn_vr{
-	background-image: url("../_img/vr.png");
+	background-image: url("../img/vr.png");
 	right: 45px;
 }
 .mptide_btn_acess{
-	background-image: url("../_img/acess_on.png");
+	background-image: url("../img/acess_on.png");
 	right: 95px;
 }
 .mptide_btn{
@@ -366,7 +366,7 @@ button:disabled, button[disabled]{
 /* fim mapa */
 /*titulo dos pinos e setas*/
 #mptide_tooltip_span {
-	font-family: font-family: 'Montserrat', sans-serif;
+	font-family:'Montserrat', sans-serif;
 	font-size: 12px;
 	display:none;
 	position:absolute;

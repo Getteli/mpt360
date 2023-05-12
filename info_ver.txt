@@ -21,3 +21,5 @@ Tour Virtual
 VR (Virtual Reality/Realidade Virtual)
 Cardboard
 Click Hotspot eye IN VR Cardboard
+
+paginas do git, nao podem ter _ no inicio de suas pastas

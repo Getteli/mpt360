@@ -62,8 +62,8 @@ function onProgress ( event ) {
 
 // primeira esfera
 // para usar um video, este é o codigo
-// esfera = new PANOLENS.VideoPanorama( '_assets/_img/video360.mp4', {autoplay: true});	
-esfera = new PANOLENS.ImagePanorama( '_assets/_img/corredor.jpg' );
+// esfera = new PANOLENS.VideoPanorama( 'assets/img/video360.mp4', {autoplay: true});	
+esfera = new PANOLENS.ImagePanorama( 'assets/img/corredor.jpg' );
 // zera a barra de progresso (onEnter), inicia o progresso (onProgress) e depois termina o progress com onOut
 esfera.addEventListener( 'enter', function(){
 	v_esf = 1;
@@ -182,7 +182,7 @@ esfera.addEventListener( 'load', function(){
 	});
 
 // segunda esfera
-esfera2 = new PANOLENS.ImagePanorama( '_assets/_img/sala.jpg' );
+esfera2 = new PANOLENS.ImagePanorama( 'assets/img/sala.jpg' );
 esfera2.addEventListener( 'enter', function(){
 	v_esf = 2;
 	onEnter();
@@ -234,7 +234,7 @@ esfera2.addEventListener( 'load', function(){
 	});
 
 // terceira esfera
-esfera3 = new PANOLENS.ImagePanorama( '_assets/_img/sala2.jpg' );
+esfera3 = new PANOLENS.ImagePanorama( 'assets/img/sala2.jpg' );
 esfera3.addEventListener( 'enter', function(){
 	v_esf = 3;
 	onEnter();
@@ -253,7 +253,7 @@ esfera3.addEventListener( 'load', function(){
 });
 
 // quarta esfera
-esfera4 = new PANOLENS.ImagePanorama( '_assets/_img/escada.jpg' );
+esfera4 = new PANOLENS.ImagePanorama( 'assets/img/escada.jpg' );
 esfera4.addEventListener( 'enter', function(){
 	v_esf = 4;
 	onEnter();
@@ -305,7 +305,7 @@ esfera4.addEventListener( 'load', function(){
 	});
 
 // quinta esfera
-esfera5 = new PANOLENS.ImagePanorama( '_assets/_img/aberta.jpg' );
+esfera5 = new PANOLENS.ImagePanorama( 'assets/img/aberta.jpg' );
 esfera5.addEventListener( 'enter', function(){
 	v_esf = 5;
 	onEnter();
@@ -431,7 +431,7 @@ btn_acess.onclick = function() {
 		modal_acess.style.display = "block";
 		audio_acess_inicio.play();
 	}else{
-		btn_acess.style.backgroundImage = "url('_assets/_img/acess_on.png')";
+		btn_acess.style.backgroundImage = "url('assets/img/acess_on.png')";
 		btn_acess.title = "Clique para ativar acessibilidade";
 		stop_acess();
 		// limpa a variavel
@@ -451,7 +451,7 @@ btn_acess_ok.onclick = function() {
 		modal_acess.style.display = "none";
 		audio_acess_inicio.pause();
 		audio_acess_inicio.currentTime = 0;
-		btn_acess.style.backgroundImage = "url('_assets/_img/acess_off.png')";
+		btn_acess.style.backgroundImage = "url('assets/img/acess_off.png')";
 		btn_acess.title = "Clique para desativar acessibilidade";
 		// ativado
 		vmacess = 1;
@@ -521,7 +521,7 @@ btn_vr.onclick = function() {
 	// verifica se esta ativado (se for diferente de vazio a variavel), se for vazia entra no modo VR se nao volta ao normal
 	if (vmvr != null) {
 		// voltar a img normal
-		btn_vr.style.backgroundImage = "url('_assets/_img/vr.png')";
+		btn_vr.style.backgroundImage = "url('assets/img/vr.png')";
 		//muda um pouco o tamanho
 		btn_vr.style.width = "44px";
 		btn_vr.style.height = "44px";
@@ -536,7 +536,7 @@ btn_vr.onclick = function() {
 		vmvr = null;
 	}else{
 		// ao entrar modo vr muda a img
-		btn_vr.style.backgroundImage = "url('_assets/_img/back.png')";
+		btn_vr.style.backgroundImage = "url('assets/img/back.png')";
 		//muda um pouco o tamanho
 		btn_vr.style.width = "30px";
 		btn_vr.style.height = "30px";

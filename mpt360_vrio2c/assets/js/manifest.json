@@ -4,7 +4,7 @@
   "description": "My Personal Tour - 360°",
   "icons": [
     {
-      "src": "../_img/favicon.png",
+      "src": "../img/favicon.png",
       "type": "image/png",
       "sizes": "152x152"
     }

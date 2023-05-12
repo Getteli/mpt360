@@ -107,7 +107,7 @@ mptide_btn_acess.onclick = function() {
 		mptide_modal_acess.style.display = "block";
 		mptide_audio_acess_inicio.play();
 	}else{
-		mptide_btn_acess.style.backgroundImage = "url('_assets/_img/acess_on.png')";
+		mptide_btn_acess.style.backgroundImage = "url('assets/img/acess_on.png')";
 		mptide_btn_acess.title = "Clique para ativar acessibilidade";
 		mptide_function_js_stop_acess();
 		// limpa a variavel
@@ -127,7 +127,7 @@ mptide_btn_acess_ok.onclick = function() {
 		mptide_modal_acess.style.display = "none";
 		mptide_audio_acess_inicio.pause();
 		mptide_audio_acess_inicio.currentTime = 0;
-		mptide_btn_acess.style.backgroundImage = "url('_assets/_img/acess_off.png')";
+		mptide_btn_acess.style.backgroundImage = "url('assets/img/acess_off.png')";
 		mptide_btn_acess.title = "Clique para desativar acessibilidade";
 		// ativado
 		mptide_vmacess = 1;
@@ -167,7 +167,7 @@ mptide_btn_vr.onclick = function() {
 	// verifica se esta ativado (se for diferente de vazio a variavel), se for vazia entra no modo VR se nao volta ao normal
 	if (mptide_vmvr != null) {
 		// voltar a img normal
-		mptide_btn_vr.style.backgroundImage = "url('_assets/_img/vr.png')";
+		mptide_btn_vr.style.backgroundImage = "url('assets/img/vr.png')";
 		//muda um pouco o tamanho
 		mptide_btn_vr.style.width = "44px";
 		mptide_btn_vr.style.height = "44px";
@@ -184,7 +184,7 @@ mptide_btn_vr.onclick = function() {
 		mptide_vmvr = null;
 	}else{
 		// ao entrar modo vr muda a img
-		mptide_btn_vr.style.backgroundImage = "url('_assets/_img/back.png')";
+		mptide_btn_vr.style.backgroundImage = "url('assets/img/back.png')";
 		//muda um pouco o tamanho
 		mptide_btn_vr.style.width = "30px";
 		mptide_btn_vr.style.height = "30px";
@@ -272,10 +272,10 @@ function mptide_function_js_load_index(mptide_container) {
 	var mptide_aud_sph_0 = document.createElement('audio');
 	mptide_aud_sph_0.classList.add('mptide_aud_sph');
 	var mptide_aud_src_sph_0 = document.createElement('source');
-	mptide_aud_src_sph_0.src = '_assets/_sound/sala.mp3';
+	mptide_aud_src_sph_0.src = 'assets/sound/sala.mp3';
 	mptide_aud_src_sph_0.setAttribute('type', 'audio/mpeg');
 	var mptide_aud_src1_sph_0 = document.createElement('source');
-	mptide_aud_src1_sph_0.src = '_assets/_sound/sala.ogg';
+	mptide_aud_src1_sph_0.src = 'assets/sound/sala.ogg';
 	mptide_aud_src1_sph_0.setAttribute('type', 'audio/ogg');
 	mptide_aud_sph_0.appendChild(mptide_aud_src_sph_0);
 	mptide_aud_sph_0.appendChild(mptide_aud_src1_sph_0);
@@ -289,9 +289,9 @@ function mptide_function_js_load_index(mptide_container) {
 	var mptide_sph_0_pin_img_0_cont = document.createElement('div');
 	mptide_sph_0_pin_img_0_cont.classList.add('mptide_boxpin_cont');
 	var mptide_sph_0_pin_img_0_src = document.createElement('img');
-	mptide_sph_0_pin_img_0_src.src = '_assets/_files/varanda.jpg';
+	mptide_sph_0_pin_img_0_src.src = 'assets/files/varanda.jpg';
 	mptide_sph_0_pin_img_0_src.alt = 'Ampla Varanda c/ vista para rua';
-	mptide_sph_0_pin_img_0_src.setAttribute('onclick', 'mptide_function_js_openimgmodal("_assets/_files/varanda.jpg","Ampla Varanda c/ vista para a rua")');
+	mptide_sph_0_pin_img_0_src.setAttribute('onclick', 'mptide_function_js_openimgmodal("assets/files/varanda.jpg","Ampla Varanda c/ vista para a rua")');
 	var mptide_sph_0_pin_img_0_title = document.createElement('div');
 	mptide_sph_0_pin_img_0_title.classList.add('mptide_title');
 	mptide_sph_0_pin_img_0_title.innerHTML = 'Ampla Varanda c/ vista para a rua';
@@ -315,10 +315,10 @@ function mptide_function_js_load_index(mptide_container) {
 	mptide_sph_0_pin_aud_0_tagaud.setAttribute('controls', '');
 	mptide_sph_0_pin_aud_0_tagaud.setAttribute('controlsList', 'nodownload');
 	var mptide_sph_0_pin_aud_0_tagaud_src = document.createElement('source');
-	mptide_sph_0_pin_aud_0_tagaud_src.src = '_assets/_sound/audio.mp3';
+	mptide_sph_0_pin_aud_0_tagaud_src.src = 'assets/sound/audio.mp3';
 	mptide_sph_0_pin_aud_0_tagaud_src.setAttribute('type', 'audio/mpeg');
 	var mptide_sph_0_pin_aud_0_tagaud_src1 = document.createElement('source');
-	mptide_sph_0_pin_aud_0_tagaud_src1.src = '_assets/_sound/audio.ogg';
+	mptide_sph_0_pin_aud_0_tagaud_src1.src = 'assets/sound/audio.ogg';
 	mptide_sph_0_pin_aud_0_tagaud_src1.setAttribute('type', 'audio/ogg');
 	mptide_sph_0_pin_aud_0_tagaud.innerHTML = 'Seu navegador não suporta a tag de áudio ou vídeo.';
 	var mptide_sph_0_pin_aud_0_title = document.createElement('div');
@@ -363,10 +363,10 @@ function mptide_function_js_load_index(mptide_container) {
 	var mptide_aud_sph_1 = document.createElement('audio');
 	mptide_aud_sph_1.classList.add('mptide_aud_sph');
 	var mptide_aud_src_sph_1 = document.createElement('source');
-	mptide_aud_src_sph_1.src = '_assets/_sound/cozinha.mp3';
+	mptide_aud_src_sph_1.src = 'assets/sound/cozinha.mp3';
 	mptide_aud_src_sph_1.setAttribute('type', 'audio/mpeg');
 	var mptide_aud_src1_sph_1 = document.createElement('source');
-	mptide_aud_src1_sph_1.src = '_assets/_sound/cozinha.ogg';
+	mptide_aud_src1_sph_1.src = 'assets/sound/cozinha.ogg';
 	mptide_aud_src1_sph_1.setAttribute('type', 'audio/ogg');
 	mptide_aud_sph_1.appendChild(mptide_aud_src_sph_1);
 	mptide_aud_sph_1.appendChild(mptide_aud_src1_sph_1);
@@ -376,10 +376,10 @@ function mptide_function_js_load_index(mptide_container) {
 	var mptide_aud_sph_2 = document.createElement('audio');
 	mptide_aud_sph_2.classList.add('mptide_aud_sph');
 	var mptide_aud_src_sph_2 = document.createElement('source');
-	mptide_aud_src_sph_2.src = '_assets/_sound/quarto.mp3';
+	mptide_aud_src_sph_2.src = 'assets/sound/quarto.mp3';
 	mptide_aud_src_sph_2.setAttribute('type', 'audio/mpeg');
 	var mptide_aud_src1_sph_2 = document.createElement('source');
-	mptide_aud_src1_sph_2.src = '_assets/_sound/quarto.ogg';
+	mptide_aud_src1_sph_2.src = 'assets/sound/quarto.ogg';
 	mptide_aud_src1_sph_2.setAttribute('type', 'audio/ogg');
 	mptide_aud_sph_2.appendChild(mptide_aud_src_sph_2);
 	mptide_aud_sph_2.appendChild(mptide_aud_src1_sph_2);
@@ -389,10 +389,10 @@ function mptide_function_js_load_index(mptide_container) {
 	var mptide_aud_sph_3 = document.createElement('audio');
 	mptide_aud_sph_3.classList.add('mptide_aud_sph');
 	var mptide_aud_src_sph_3 = document.createElement('source');
-	mptide_aud_src_sph_3.src = '_assets/_sound/banheiro.mp3';
+	mptide_aud_src_sph_3.src = 'assets/sound/banheiro.mp3';
 	mptide_aud_src_sph_3.setAttribute('type', 'audio/mpeg');
 	var mptide_aud_src1_sph_3 = document.createElement('source');
-	mptide_aud_src1_sph_3.src = '_assets/_sound/banheiro.ogg';
+	mptide_aud_src1_sph_3.src = 'assets/sound/banheiro.ogg';
 	mptide_aud_src1_sph_3.setAttribute('type', 'audio/ogg');
 	mptide_aud_sph_3.appendChild(mptide_aud_src_sph_3);
 	mptide_aud_sph_3.appendChild(mptide_aud_src1_sph_3);
@@ -424,7 +424,7 @@ function mptide_function_js_load_index(mptide_container) {
 	mptide_container.appendChild(mptide_sph_3_pin_frame_0);
 
 	// blueprint, src
-	mptide_blueprint_map_src.src = '_assets/_files/map.png';
+	mptide_blueprint_map_src.src = 'assets/files/map.png';
 } // fim mptide_function_js_load_index
 
 // com as opcoes do usuario, ativa a funcao
@@ -432,8 +432,8 @@ mptide_function_js_options_user(true,true,true);
 
 // primeira esfera
 // para usar um video, este é o codigo
-// var esfera = new PANOLENS.VideoPanorama( '_assets/_img/video360.mp4', {autoplay: false});
-var esfera = new PANOLENS.ImagePanorama( '_assets/_sphere/sala.jpg' );
+// var esfera = new PANOLENS.VideoPanorama( 'assets/img/video360.mp4', {autoplay: false});
+var esfera = new PANOLENS.ImagePanorama( 'assets/sphere/sala.jpg' );
 // zera a barra de progresso (mptide_function_js_onenter), inicia o progresso (mptide_function_js_onprogress) e depois termina o progress com mptide_function_js_onout
 esfera.addEventListener( 'enter', function(){
 	mptide_v_esf = 0; // entrou na esfera, coloca o numero 0 pois esta esfera e a primeira, se for a segunda esfera coloca 1 e assim sucessivamente
@@ -601,7 +601,7 @@ esfera.addEventListener( 'load', function(){
 	pin_timeline.position.set( 2310.00, 360.00, 4937.30 );
 
 // segunda esfera
-var esfera2 = new PANOLENS.ImagePanorama( '_assets/_sphere/cozinha.jpg' );
+var esfera2 = new PANOLENS.ImagePanorama( 'assets/sphere/cozinha.jpg' );
 esfera2.addEventListener( 'enter', function(){
 	mptide_v_esf = 1;
 	mptide_function_js_onenter();
@@ -641,7 +641,7 @@ esfera2.addEventListener( 'load', function(){
 	});
 
 // terceira esfera
-var esfera3 = new PANOLENS.ImagePanorama( '_assets/_sphere/quarto.png' );
+var esfera3 = new PANOLENS.ImagePanorama( 'assets/sphere/quarto.png' );
 esfera3.addEventListener( 'enter', function(){
 	mptide_v_esf = 2;
 	mptide_function_js_onenter();
@@ -660,7 +660,7 @@ esfera3.addEventListener( 'load', function(){
 });
 
 // quarta esfera
-var esfera4 = new PANOLENS.ImagePanorama( '_assets/_sphere/banheiro.jpg' );
+var esfera4 = new PANOLENS.ImagePanorama( 'assets/sphere/banheiro.jpg' );
 esfera4.addEventListener( 'enter', function(){
 	mptide_v_esf = 3;
 	mptide_function_js_onenter();

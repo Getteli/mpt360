@@ -1,4 +1,4 @@
-\\MPT - 360 v1
+\\MPT - 360 v1 (pino,VR simples,mapeamento de area,mapa..)
 versão - 2.0.1
 data - 18/02/2018
 

@@ -18,12 +18,12 @@
 <p>
     MPT 360 é um software criado para ser um serviço de apresentação de ambientes. Possui um conjunto de funcionalidades que o difere dos demais concorrentes.
     <ul>
-        <li>totalmente criado com fotos dos locais (em 360)</li>
-        <li>adição de midias (imagens, vídeos, iframes como mapas e etc)</li>
-        <li>100% funcional em todos os dispositivos, de desktop a mobile</li>
-        <li>Possibilidade de usar um cardboard ou oculos VR</li>
-        <li>Acessibilidade (ele vibra ao passar por um dos pins) e tem audio explicando o ambiente</li>
-        <li>Mapa do ambiente</li>
+        <li>totalmente criado com fotos dos locais (em 360);</li>
+        <li>adição de midias (imagens, vídeos, iframes como mapas e etc);</li>
+        <li>100% funcional em todos os dispositivos, de desktop a mobile;</li>
+        <li>Possibilidade de usar um cardboard ou oculos VR;</li>
+        <li>Acessibilidade (ele vibra ao passar por um dos pins) e tem audio explicando o ambiente;</li>
+        <li>Mapa do ambiente;</li>
         <li>Conexão com BD, para leitura de dados, formulários e etc;</li>
         <li>Ande por todos os cômodos!</li>
     </ul>

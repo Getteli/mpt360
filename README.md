@@ -35,7 +35,8 @@
 - **[Panolens.js](https://github.com/pchen66/panolens.js)**;
 - **[WEBGL](https://get.webgl.org/)**;
 - **[Cardboard](https://arvr.google.com/)**;
-- Javascript;
+- **[Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**;
+- **[Jquery](https://jquery.com/)**;
 - VR (Virtual Reality/Realidade Virtual);
 
 <hr>
